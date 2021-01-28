@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  font: tahoma;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: tahoma;
+  background-color: #8d5185;
+  background-image: linear-gradient(315deg, #8d5185 0%, #a1bafe 74%);
+}
+.container {
+  width: 33%;
+  border-radius: 10px;
+  height: auto;
+  padding: 50px 30px;
+  margin: 10% auto;
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  color: white;
+  margin: 10px 0;
+  font-weight: 200;
+}
+.addSection {
+  width: 100%;
+  margin-bottom: 20px;
+  /* height: 35px;
+  background-color: black; */
+}
+.addSection input {
+  border-radius: 10px;
+  border: 2px solid white;
+  text-align: center;
+  width: 90%;
+  height: 35px;
+  color: rgb(0, 0, 0);
+}
+.addSection button {
+  border-radius: 90px;
+  width: 10%;
+  height: 30px;
+  margin-left: -55px;
+  outline: none;
+  color: white;
+  background-color: orangered;
+  border: none;
+}
+ul li {
+  width: 100%;
+}
+ul li {
+  list-style: none;
+  padding: 10px 0 10px 0;
+  color: white;
+}
+ul li:hover {
+  transition: ease-in 0.3s;
+  font-size: 20px;
+}
+.deleteBtn {
+  width: 80px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 90px;
+  color: white;
+  border: 2px solid white;
+  outline: none;
+  margin-left: 30px;
+}
+.checked {
+  text-decoration: line-through;
+}
+@media (max-width: 900px) {
+  .container {
+    width: 80%;
+  }
+}
